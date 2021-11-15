@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.ttf?t=1636962122770') format('truetype');
+  }
+
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+}
+.loginBox{
+    margin: 150px auto;
+    width: 400px;
+    height: 300px;
+    background-color: #00000090;
+    border-radius: 10px;
+}
+.loginBox h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    /* border: 1px solid green; */
+}
+.loginBox .box1,.box2{
+  width: 230px;  
+  height: 50px;
+  margin: 20px auto;
+  margin-top: 20px;
+  /* border: 1px solid green; */
+}
+.loginBox .username,.password{
+    display: inline-block;
+    padding: 10px 10px;
+    border:0;
+    border-bottom: 1px solid white;
+    background-color: #00000000;
+    color: white;
+}
+.loginBox .button{
+    display: block;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    color: white;
+    border:0;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.loginBox span{
+    display: inline-block;
+    /* float: left; */
+    color: white;
+}
